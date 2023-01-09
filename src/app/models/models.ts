@@ -17,3 +17,9 @@ export interface Skills {
     level: string;
     rating: number
 }
+
+export interface Projects {
+    name: string;
+    technology: string;
+    description: string[];
+}

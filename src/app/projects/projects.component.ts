@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Projects } from '../models/models';
 
 @Component({
   selector: 'app-projects',
@@ -6,6 +7,28 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
+
+  projects: Projects[] = [
+    {
+      name: 'Angular',
+      technology: 'Intermediate',
+      description: [
+        
+          'jjjjjjjjj'
+        
+      ]
+    },
+    {
+      name: 'Angular',
+      technology: 'Intermediate',
+      description: [
+        
+          'jjjjjjjjj'
+        
+      ]
+    },
+
+  ]
 
   constructor() { }
 
